@@ -18,7 +18,7 @@ FROM openjdk:8-jre-alpine
 
 LABEL maintainer="jian.tan@daocloud.io"
 
-ENV SKYWALKING_VERSION=6.1.0 \
+ENV SKYWALKING_VERSION=6.2.0 \
     TZ=Asia/Shanghai \
     PACKAGE_NAME=apache-skywalking-apm \
     DIST_NAME=apache-skywalking-apm-bin \
